@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    color:white;
+  
+}
+.title{
+    margin: 4% 0 2% 0; 
+    font-size: 25px;
+}
+.input{
+   
+    outline:none ;
+    border:1px solid pink;
+    border-radius: 10px;
+    padding: .5rem 1rem;
+    width: 50%;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+.button{
+    background-color:rgb(173, 19, 161);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: .5rem 1rem;
+    height: fit-content;
+    font-style: italic;
+}
+.divInput{display: flex;
+justify-content: center;
+}
